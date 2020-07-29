@@ -1,0 +1,237 @@
+@media all and (max-width: 576px) {
+	.couter-content {
+		height: 500px;
+	}
+	.couter-content-black {
+		height: 500px;
+	}
+	.couter-content-row {
+		height: 500px;
+	}
+	.main-menu {
+    	padding: 0 5%;
+	}
+	.sub-container {
+		width: 90%;
+	}
+	.sub-container > div > h1 {
+		font-size: 60px;
+	}
+	.sub-container > div > p {
+		font-size: 15px;
+	}
+	.stabmenubg > div {
+		font-size: 10px;
+	}
+	.stabmenubg > div > i {
+		font-size: 25px;
+	}
+	.service {
+		width: 90%;
+	}
+	#sub-col-content-1 > p {
+		font-size: 14px;
+		margin: 50px 0 50px 0;
+		text-align: justify;
+	}
+	#sub-col-content-2 > div {
+	    width: 100%;
+	    margin: 50px 0 50px 0;
+	}
+	.col-carousel {
+	    margin-top: 50px;
+	}
+	#sub-col-content-4 {
+	    padding-top: 50px;
+	}
+	.service-intro {
+	    height: 400px;
+	}
+	.about-sub-col-content-5-img > i {
+	    font-size: 25px;
+	}
+	.skmenubg-img > span {
+		font-size: 10px;
+	}
+	.sub-col-content-7-mota {
+		font-size: 14px;
+	}
+	.skill > p {
+	    font-size: 15px;
+	}
+	.couter-content-col > div > span {
+	    font-size: 25px;
+	}
+	.couter-content-col > div > i {
+	    font-size: 30px;
+	    margin-bottom: 5px;
+	}
+	.ther-service-content {
+	    width: 90%;
+	}
+	.ther-service-content-row {
+	    margin: 50px 0;
+	}
+	.ther-service-content-col-img > i {
+	    font-size: 25px;
+	}
+	.ther-service-content-col-name {
+	    line-height: 480%;
+	}
+	.sub-team, .why-choose {
+	    width: 90%; 
+	    padding-top: 0px;
+	}
+	.team-col, .choose-col {
+	    padding-top: 50px;
+	}
+	.choose-col > div {
+	    margin-top: 50px;
+	}
+	.lastest-prj-content {
+		width: 90%; 
+		padding-top: 50px;
+	}
+	.prj-menu {
+	    display: block;
+	}
+	.test-fact {
+	    margin: 50px auto;
+	}
+	.brand-col {
+	    padding: 30px 30px;
+	}
+	.contact-row {
+	    width: 90%;
+	}
+	.contact-col-info i {
+	    font-size: 20px;
+	}
+	.contact-col-mota p {
+	    font-size: 16px;
+	    margin-bottom: 2px;
+	    font-weight: bold;
+	}
+	.contact-col {
+	    margin-bottom: 50px;
+	}
+	.contact-col {
+	    margin-bottom: 100px 0 50 0px;
+	}
+	.contact {
+	    padding: 100px 0 50px 0;
+	    height: auto;
+	    overflow: hidden;
+	}
+	.social {
+	    float: left;
+	}
+	.footer-mota {
+	    width: 90%;
+	}
+}
+@media all and (min-width: 577px) and (max-width: 768px) {
+	.stabmenubg > div {
+		font-size: 16px;
+	}
+	.stabmenubg > div > i {
+		font-size: 30px;
+	}
+	#sub-col-content-1 > p {
+	    font-size: 16px;
+	    margin: 50px 0 50px 0;
+	    text-align: justify;
+	}
+	#sub-col-content-2 > div {
+	    width: 100%;
+	    margin: 50px 0 50px 0;
+	}
+	.col-carousel {
+	    margin-top: 50px;
+	}
+	#sub-col-content-4 {
+	    padding-top: 50px;
+	}
+	.skmenubg-img > span {
+	    font-size: 12px;
+	}
+	.sub-col-content-7-mota {
+	    font-size: 14px;
+	}
+	.ther-service-content-col-img > i {
+	    font-size: 25px;
+	}
+	.ther-service-content-col-name {
+	    line-height: 400%;
+	    font-size: 14px;
+	}
+	.team-col, .choose-col {
+	    padding-top: 50px;
+	}
+	.choose-col > div {
+	    margin-top: 50px;
+	}
+	.sub-team, .why-choose {
+	    padding-top: 0px;
+	}
+	.lastest-prj-content {
+	    padding-top: 50px;
+	}
+	.brand-col {
+	    padding: 35px 35px;
+	}
+	.contact-col-mota p {
+	    font-size: 16px;
+	    margin-bottom: 2px;
+	    font-weight: bold;
+	}
+	.contact {
+	    padding: 100px 0 50px 0;
+	    height: auto;
+	    overflow: hidden;
+	}
+	.social {
+	    float: left;
+	}
+}
+@media all and (min-width: 768px) and (max-width: 992px) {
+	#sub-col-content-1 > p {
+	    font-size: 16px;
+	    margin: 50px 0 50px 0;
+	    text-align: justify;
+	}
+	.col-carousel {
+	    margin-top: 70px;
+	}
+	#sub-col-content-4 {
+	    padding-top: 120px;
+	}
+	#sub-col-content-4 > p {
+	    font-size: 15px;
+	    margin: 30px 0;
+	    text-align: justify;
+	}
+	.skmenubg-img > span {
+	    font-size: 10px;
+	}
+	.sub-team, .why-choose {
+	    padding-top: 0px;
+	}
+	.ther-service-content-col-img > i {
+	    font-size: 20px;
+	}
+	.brand-col {
+	    padding: 40px 40px;
+	}
+	.contact {
+	    padding: 100px 0 50px 0;
+	    height: auto;
+	    overflow: hidden;
+	}
+	.about-sub-col-content-5-img > i {
+	    font-size: 25px;
+	}
+	.social {
+	    float: left;
+	}
+}

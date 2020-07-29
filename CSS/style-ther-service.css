@@ -1,0 +1,135 @@
+.ther-service {
+	padding: 0;
+}
+.ther-service-content {
+	width: 80%;
+	margin: 0 auto;
+}
+.ther-service-content-row {
+	margin: 100px 0;
+	padding: 0;
+}
+.ther-service-content-col-img {
+	width: 20%;
+}
+.ther-service-content-col-img {
+	height: auto;
+	overflow: hidden;
+	
+	float: left;
+	position: relative;
+}
+.ther-service-content-col-img > img {
+	width: 100%;
+}
+.ther-service-content-col-img > i {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 30px;
+}
+.ther-service-content-col-name {
+	float: left;
+	font-weight: bold;
+	margin-left: 20px;
+	line-height: 600%;
+}
+.ther-service-content-row > div > div {
+	height: auto;
+	overflow: hidden;
+}
+.ther-service-content-row > div > span {
+	font-size: 14px;
+	text-align: justify;
+}
+.ther-service-content-row > div {
+	margin-bottom: 50px;
+}
+.team {
+	padding: 0;
+	/*margin: 100px 0;*/
+	height: auto;
+	overflow: hidden;
+}
+.sub-team, .why-choose, .lastest-prj-content {
+	width: 80%;
+	margin: 0 auto;
+	height: auto;
+	overflow: hidden;
+	padding-top: 100px;
+}
+.team-col, .choose-col {
+	padding-top: 100px;
+}
+.team-col > div {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+.team-col img {
+	width: 100%;
+}
+.team-row, .choose-row {
+	/*margin: 0;*/
+}
+.reason {
+	padding: 0;
+}
+.reason button {
+	padding: 0;
+	color: black;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+.btn-choose > div > div {
+	width: 10%;
+}
+.btn-choose > p {
+	float: left;
+	width: 70%;
+	/*height: 77px;*/
+	/*line-height: 450%;*/
+	margin: 0 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.choose-col > img {
+	width: 100%;
+}
+.choose-col > div {
+	margin-top: 100px;
+}
+.lastest-prj {
+	padding: 0px 0;
+	height: auto;
+	overflow: hidden;
+}
+.prj-menu {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px auto;
+	list-style: none;
+	font-size: 14px;
+}
+.prj-img {
+	width: 30%;
+	float: left;
+	margin: 1.5%;
+}
+.prj-img > img {
+	width: 100%;
+}
+.prj-all-img {
+	height: auto;
+	overflow: hidden;
+}
+.prj-li {
+	cursor: pointer;
+	padding: 10px 15px;
+	
+}
