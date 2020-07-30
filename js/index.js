@@ -89,7 +89,21 @@ jQuery(document).ready(function($) {
 			}
 		}
 	})
-	$('.team-col img').mouseover(function() {
-		$(this).append('<div>abc</div>');
+	// $('.team-col img').next().width($('.team-col img').width()).height($('.team-col img').height()).css('position', 'absolute').css('backgroundColor', '#f56906').css('zIndex', '50').css('opacity', '0.5');
+	$('.show-info img').mouseover(function() {
+		$(this).after('<div><div><a href="" class="dis-none">fb</a><a href="" class="dis-none">mail</a></div></div>')
+		$(this).next().width($(this).width()).height($(this).height()).css('position', 'absolute').css('backgroundColor', '#f56906').css('zIndex', '50').css('opacity', '0.8').css('top', '0');
+		$(this).next().find('div').css('position', 'absolute').css('top', '50%').css('left', '50%').css('transform', 'translate(-50%, -50%)');
+		$(this).next().find('a').css('display', 'inline-block').css('border', '1px #fff solid').width(35).height(35).css('margin', '5px').css('textAlign', 'center').css('color', '#fff');
+
+	})
+	$('.show-info').mouseleave(function() {
+		console.log('1');
+		$(this).find('img').next().remove();
+	})
+	$('.back-to-top').click(function() {
+		$('html,body').animate({
+			scrollTop: 0},
+			1200);
 	})
 })

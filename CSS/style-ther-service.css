@@ -61,6 +61,8 @@
 }
 .team-col, .choose-col {
 	padding-top: 100px;
+	height: auto;
+	overflow: hidden;
 }
 .team-col > div {
 	width: 100%;
@@ -111,7 +113,7 @@
 }
 .prj-menu {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin: 50px auto;
 	list-style: none;
 	font-size: 14px;
@@ -121,7 +123,13 @@
 	float: left;
 	margin: 1.5%;
 }
-.prj-img > img {
+.prj-img > div {
+	width: 100%;;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+.prj-img img {
 	width: 100%;
 }
 .prj-all-img {
